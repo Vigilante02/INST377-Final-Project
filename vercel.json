@@ -4,11 +4,11 @@
   "rewrites": [
     {
       "source": "/about",
-      "destination": "/about/index.html"
+      "destination": "/about.html"
     },
     {
       "source": "/dashboard",
-      "destination": "/dashboard/index.html"
+      "destination": "/dashboard.html"
     }
   ]
 }
