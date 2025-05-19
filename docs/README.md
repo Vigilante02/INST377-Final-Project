@@ -16,7 +16,7 @@ This guide helps future developers set up, run, and maintain this application.
 Clone this repository:
 
 ```bash
-git clone https://github.com/<your-username>/airaware-dashboard
+git clone https://github.com/Vigilante02/airaware-dashboard
 cd airaware-dashboard
 ```
 
