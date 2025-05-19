@@ -1,1 +1,5 @@
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_KEY=your-supabase-anon-key
+WEATHERSTACK_KEY=your-weatherstack-key
+AQICN_TOKEN=your-aqicn-token
 
