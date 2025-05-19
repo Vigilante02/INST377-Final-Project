@@ -1,1 +1,32 @@
-# INST377-Final-Project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AirAware - AQI & Weather</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/dashboard">Dashboard</a>
+  </nav>
+
+  <main class="container">
+    <h1>AirAware: Real-Time Air Quality & Weather Dashboard</h1>
+
+    <form name="airForm" onsubmit="return validateAndFetchData();">
+      <label for="cityInput">City:</label>
+      <input type="text" id="cityInput" placeholder="Enter city name" required>
+      <br><br>
+      <input type="submit" value="Check Conditions">
+    </form>
+
+    <div id="output" style="margin-top: 20px;"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
