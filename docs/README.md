@@ -68,14 +68,9 @@ Visit `http://localhost:3000` in your browser.
 
 ### Known Issues
 
-- Potential API latency or rate limits from AQICN and Weatherstack.
-- Map requires manual refresh when updating dynamically.
+- Vercel deployment is inconsistent, and certain pages don't show up.
 
 ### Future Development Roadmap
 
-- Implement comprehensive testing.
+- Fix Vercel deployment.
 - Improve UI responsiveness and accessibility.
-- Introduce user authentication for personalized data.
-- Extend data visualization features with additional metrics.
-
-Documentation is stored in the `docs/` directory within the main project repository.
